@@ -30,6 +30,7 @@ atom-text-editor {
 
   .cursor {
     border-color: @syntax-cursor-color;
+    font-weight: bold;
   }
 
   .selection .region {
@@ -48,7 +49,7 @@ atom-text-editor {
   .syntax--gfm {
     .syntax--markup {
       &.syntax--heading {
-        color: @green;
+        color: @shade-blue;
         font-weight: bold;
       }
 
@@ -71,7 +72,7 @@ atom-text-editor {
     }
 
     .syntax--variable.syntax--list {
-      color: @pink;
+      color: @light-purple;
       font-weight: bold;
     }
 
@@ -86,7 +87,8 @@ atom-text-editor {
 }
 
 .syntax--comment {
-  color: @brown;
+  color: @com-green;
+  font-size: x-small;
 }
 
 .syntax--constant {
@@ -94,50 +96,52 @@ atom-text-editor {
   &.syntax--language,
   &.syntax--numeric,
   &.syntax--other {
-    color: @purple;
+    color: @ora;
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--class {
     text-decoration: none;
-    color: @green;
+    color: @shade-blue;
   }
 
   &.syntax--name.syntax--function {
-    color: @green;
+    color: @shade-blue;
   }
 
   &.syntax--name.syntax--instance {
-    color: @blue;
+    color: @shade-blue;
   }
 
   &.syntax--name.syntax--tag {
-    color: @pink;
+    color: @light-purple;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @green;
+    color: @shade-blue;
   }
 
   &.syntax--other.syntax--inherited-class {
     font-style: italic;
     text-decoration: none;
-    color: @green;
+    color: @shade-blue;
   }
 }
 
 .syntax--invalid {
   color: @ghost-white;
-  background-color: @pink;
+  background-color: @darker-red;
 
   &.syntax--deprecated {
-    background-color: @purple;
+    background-color: @yellow;
   }
 }
 
 .syntax--keyword {
-  color: @pink !important;
+  color: @deep-pink !important;
+  font-weight: bold;
+  font-size: small;
 }
 
 .syntax--meta.syntax--tag {
@@ -149,7 +153,7 @@ atom-text-editor {
 
   &.syntax--type {
     font-style: italic;
-    color: @blue;
+    color: @green;
   }
 }
 
@@ -160,13 +164,15 @@ atom-text-editor {
 .syntax--support {
   &.syntax--constant,
   &.syntax--function {
-    color: @blue;
+    color: @shade-blue;
+    font-weight: bold;
   }
 
   &.syntax--class,
   &.syntax--type {
     font-style: italic;
-    color: @blue;
+    font-weight:bold;
+    color: @green;
   }
 }
 
@@ -180,13 +186,13 @@ atom-text-editor {
   &.syntax--language.syntax--python,
   // 'this' Javascript
   &.syntax--language.syntax--js {
-    color: @pink;
+    color: @red;
   }
 }
 
 // Jade syntax
 .syntax--class.syntax--jade {
-  color: @purple;
+  color: @darker-purple;
 }
 
 // Prevent underlines from making their way into whitespace elements
@@ -199,7 +205,7 @@ atom-text-editor {
   .syntax--template {
     .syntax--element {
       .syntax--quasi.syntax--begin, .syntax--quasi.syntax--end, .syntax--language {
-        color: @pink;
+        color: @orange-shade;
       }
 
       .syntax--variable, .syntax--brace, .syntax--comma {
@@ -207,7 +213,7 @@ atom-text-editor {
       }
 
       .syntax--constant {
-        color: @purple;
+        color: @orange-shade;
       }
     }
   }
@@ -215,13 +221,8 @@ atom-text-editor {
 
 .syntax--json {
   .syntax--key {
-    .syntax--string,
-    &.syntax--string.syntax--quoted.syntax--double.syntax--dictionary {
-      color: @green;
+    .syntax--string {
+      color: #a6e22e;
     }
-  }
-  .syntax--markup.syntax--underline.syntax--link {
-    color: @blue;
-    text-decoration: underline;
   }
 }

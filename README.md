@@ -1,8 +1,23 @@
-# Monokai theme
+# Monokai-Mystyle-v2 theme
 
-A monokai syntax theme for Atom.
+A alternative monokai syntax theme for Atom.
 
-Originally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)
-theme using the [TextMate bundle converter](http://flight-manual.atom.io/hacking-atom/sections/converting-from-textmate/).
+This includes only color changes to the theme 
 
-![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)
+You can use Fonts package if you want to change font also.
+
+My font-family is "Victor Mono Italic".
+
+# Feature to be add
+- [] Font Style default Victor Mono Italic
+
+# Preview images
+
+![](https://github.com/tassosblackg/monokai/blob/master/images-example/css-style-example.png)
+![](https://github.com/tassosblackg/monokai/blob/master/images-example/js-style-syntax.png)
+
+#Author
+
+tassosblackg :japanese_ogre:
+
+see my previous style option for monokai also : ![](https://github.com/tassosblackg/Monokai-syntax-mystyle)
