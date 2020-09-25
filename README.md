@@ -9,15 +9,15 @@ You can use Fonts package if you want to change font also.
 My font-family is "Victor Mono Italic".
 
 # Feature to be add
-- [] Font Style default Victor Mono Italic
+- [ ] Font Style default Victor Mono Italic
 
 # Preview images
 
 ![](https://github.com/tassosblackg/monokai/blob/master/images-example/css-style-example.png)
 ![](https://github.com/tassosblackg/monokai/blob/master/images-example/js-style-syntax.png)
 
-#Author
+# Author
 
 tassosblackg :japanese_ogre:
 
-see my previous style option for monokai also : ![](https://github.com/tassosblackg/Monokai-syntax-mystyle)
+see my previous style option for monokai also : [Monokai-Mystyle-v1](https://github.com/tassosblackg/Monokai-syntax-mystyle)
